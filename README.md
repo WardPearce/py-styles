@@ -14,15 +14,13 @@ All the python related styling is kept [here](/assets/css/python.css), feel free
 ```html
 <h3 id="about" class="def return-str">about</h3>
 ```
+![preview of def return](https://i.imgur.com/IlAlCu4.png)
 
 #### Return types
 - `return-str`
 - `return-int`
 - `return-list`
 - `return-none`
-
-#### Preview
-![preview of def return](https://i.imgur.com/IlAlCu4.png)
 
 ### Adding docstrings
 ```html
