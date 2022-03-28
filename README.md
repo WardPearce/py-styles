@@ -2,7 +2,7 @@
 Raw CSS to make your site look like python code. Built mainly for my portfolio & will be missing functionality. Feel free to submit a PR or request functionality in a issue.
 
 ## Preview
-![preview of my portfolio](https://i.imgur.com/75jrGKs.png)
+![preview of my portfolio](https://i.imgur.com/5UaoHzV.png)
 
 [Live preview](https://wardpearce.com)
 
@@ -80,7 +80,7 @@ Will underline if link provided.
     </ul>
 </div>
 ```
-![Dict](https://i.imgur.com/yxBjW0Z.png)
+![Dict](https://i.imgur.com/Eglb0q1.png)
 
 #### List
 ```html

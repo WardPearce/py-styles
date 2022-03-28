@@ -119,8 +119,12 @@
     display: flex;
 }
 
-.dict li p:first-child:after {
+.dict li p:first-child:not(.str):after {
     content: ":";
+}
+
+.dict li p:first-child.str:after {
+    content: "\":";
 }
 
 .dict li:not(:last-child):after {
