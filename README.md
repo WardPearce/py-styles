@@ -61,6 +61,27 @@ Will underline if link provided.
 ```
 ![Bool](https://i.imgur.com/ke6809p.png)
 
+#### Dict
+```html
+<div class="dict">
+    <ul>
+        <li>
+            <p class="str">email</p>
+            <p class="str"><a href="mailto:wardpearce@pm.me">wardpearce@pm.me</a></p>
+        </li>
+        <li>
+            <p class="str">matrix</p>
+            <p class="str"><a href="https://matrix.to/#/@wardp:matrix.org" target="_blank">@wardp:matrix.org</a></p>
+        </li>
+        <li>
+            <p class="str">github</p>
+            <p class="str"><a href="https://github.com/WardPearce/" target="_blank">github.com/WardPearce</a></p>
+        </li>
+    </ul>
+</div>
+```
+![Dict](https://i.imgur.com/yxBjW0Z.png)
+
 #### List
 ```html
 <div class="list">
@@ -105,27 +126,6 @@ Will underline if link provided.
 </div>
 ```
 ![Return](https://i.imgur.com/8uKdf6f.png)
-
-### Dict
-```html
-<div class="dict">
-    <ul>
-        <li>
-            <p class="str">email</p>
-            <p class="str"><a href="mailto:wardpearce@pm.me">wardpearce@pm.me</a></p>
-        </li>
-        <li>
-            <p class="str">matrix</p>
-            <p class="str"><a href="https://matrix.to/#/@wardp:matrix.org" target="_blank">@wardp:matrix.org</a></p>
-        </li>
-        <li>
-            <p class="str">github</p>
-            <p class="str"><a href="https://github.com/WardPearce/" target="_blank">github.com/WardPearce</a></p>
-        </li>
-    </ul>
-</div>
-```
-![Dict](https://i.imgur.com/yxBjW0Z.png)
 
 ### Call
 ```html
