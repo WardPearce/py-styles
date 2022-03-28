@@ -94,7 +94,23 @@ Will underline if link provided.
 ```
 ![Return](https://i.imgur.com/8uKdf6f.png)
 
-## Call
+### Dict
+```html
+<div class="dict">
+    <ul>
+        <li>
+            <p class="key">email</p><p class="value">wardpearce@pm.me</p>
+        </li>
+
+        <li>
+            <p class="key">matrix</p><p class="value">@wardp:matrix.org</p>
+        </li>
+    </ul>
+</div>
+```
+![Dict](https://i.imgur.com/HgJhi5G.png)
+
+### Call
 ```html
 <p class="call">about</p>
 ```

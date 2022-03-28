@@ -90,6 +90,47 @@
     margin-bottom: 1em;
 }
 
+.dict {
+    margin-left: .5em;
+}
+
+.dict:before {
+    content: "{";
+    color: var(--foreground);
+}
+
+.dict:after {
+    content: "}";
+    color: var(--foreground);
+}
+
+.dict ul {
+    list-style: none;
+}
+
+.dict li {
+    display: flex;
+}
+
+.dict .key:after {
+    content: "\": ";
+    color: var(--foreground);
+}
+
+.dict .key:before, .dict .value:before {
+    content: "\"";
+    color: var(--foreground);
+}
+
+.dict .value, .dict .key {
+    color: var(--orange);
+}
+
+.dict li:not(:last-child) .value:after {
+    content: "\",";
+    color: var(--foreground);
+}
+
 .list {
     margin-left: .5em;
 }
