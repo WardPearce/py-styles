@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background: #282a36;
+    --current-line: #44475a;
+    --foreground: #f8f8f2;
+    --purple: #bd93f9;
+    --green: #50fa7b;
+}
+
+@font-face {
+    font-family: FiraCode;
+    src: url('../fonts/FiraCode-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: FiraCode;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: var(--current-line);
+    min-height: 3em;
+    padding: .5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav span {
+    color: var(--purple);
+    font-weight: 500;
+}
+
+nav h3 {
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul {
+    margin-left: 1em;
+}
+
+nav ul li {
+    margin-right: 1em;
+}
+
+nav ul li a:before {
+    content: "def ";
+    color: var(--purple);
+}
+
+nav ul li a:after {
+    content: "()";
+    color: var(--foreground);
+}
+
+a {
+    color: var(--green);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b6f5c6;
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    nav ul {
+       margin-left: 0;
+       margin-top: .5em;
+       display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    nav ul li {
+       margin-top: .5em;
+       margin-left: 3em;
+    }
+}
