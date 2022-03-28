@@ -29,6 +29,10 @@
     width: 80%;
 }
 
+.var {
+    display: flex;
+}
+
 .def {
     font-weight: 500;
     margin-bottom: .3em;
@@ -122,7 +126,7 @@
 }
 
 .conditional li:nth-of-type(2n+1) {
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 .conditional li:nth-of-type(2n+2) {
@@ -131,6 +135,11 @@
 
 .conditional li:nth-of-type(2n+1):after {
     content: ":";
+}
+
+.conditional .else:before {
+    margin-right: 0 !important;
+    content: "else" !important;
 }
 
 .str:before {
@@ -146,4 +155,16 @@
 .str {
     color: var(--orange);
     margin-left: .5em;
+}
+
+.bool-true:before {
+    content: "True";
+    margin-left: .5em;
+    color: var(--purple);
+}
+
+.bool-false:before {
+    content: "False";
+    margin-left: .5em;
+    color: var(--purple);
 }
