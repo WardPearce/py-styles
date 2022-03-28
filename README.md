@@ -2,7 +2,7 @@
 Raw CSS to make your site look like python code. Built mainly for my portfolio & will be missing functionality. Feel free to submit a PR or request functionality in a issue.
 
 ## Preview
-![preview of my portfolio](https://i.imgur.com/COgvy2N.png)
+![preview of my portfolio](https://i.imgur.com/A0pVv5x.png)
 
 [Live preview](https://wardpearce.com)
 
@@ -21,6 +21,7 @@ All the python related styling is kept [here](/assets/css/python.css), feel free
 - `return-int`
 - `return-list`
 - `return-none`
+- `return-dict`
 
 ### Adding docstrings
 ```html

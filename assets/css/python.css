@@ -19,6 +19,11 @@
     color: var(--foreground);
 }
 
+.return-dict:after {
+    content: "() -> dict:";
+    color: var(--foreground);
+}
+
 .return-none:after {
     content: "() -> None:";
     color: var(--foreground);
