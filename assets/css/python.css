@@ -54,6 +54,10 @@
     color: var(--purple);
 }
 
+.return p {
+    margin-left: .5em;
+}
+
 .docstring:before {
     content: "\"\"\"";
 }
