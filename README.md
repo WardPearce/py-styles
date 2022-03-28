@@ -14,6 +14,13 @@ All the python related styling is kept [here](/assets/css/python.css), feel free
 ```html
 <h3 id="about" class="def return-str">about</h3>
 ```
+
+#### Return types
+- `return-str`
+- `return-int`
+- `return-list`
+- `return-none`
+
 #### Preview
 ![preview of def return](https://i.imgur.com/IlAlCu4.png)
 
@@ -34,3 +41,48 @@ Will underline if link provided.
 </p>
 ```
 ![Example of comment](https://i.imgur.com/OjriBfb.png)
+
+### Variables
+#### Assigning
+```html
+<div class="var"><p>paaster</p><div class="bool-true"></div></div>
+<div class="var"><p>unofficial_dathost_interface</p><div class="bool-false"></div></div>
+```
+![Bool](https://i.imgur.com/ke6809p.png)
+
+#### Variable types
+- `int`
+- `str`
+- `list`
+
+#### Bool
+```html
+<div class="var"><p>paaster</p><div class="bool-true"></div></div>
+<div class="var"><p>unofficial_dathost_interface</p><div class="bool-false"></div></div>
+```
+![Bool](https://i.imgur.com/ke6809p.png)
+
+#### List
+```html
+<div class="var">
+    <p>contacts =</p>
+    <div class="list">
+        <ul>
+            <li>wardpearce@pm.me</li>
+            <li>@wardp:matrix.org</li>
+        </ul>
+    </div>
+</div>
+```
+![List](https://i.imgur.com/TeN75TT.png)
+
+### String
+```html
+<p class="str">Modern typed requests for Python 3 built on-top of HTTPX.</p>
+```
+![string](https://i.imgur.com/ONL1Hss.png)
+
+### Integer
+```html
+<p class="int">0</p>
+```
