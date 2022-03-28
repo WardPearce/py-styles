@@ -1,0 +1,149 @@
+:root {
+    --background: #282a36;
+    --current-line: #44475a;
+    --foreground: #f8f8f2;
+    --purple: #bd93f9;
+    --green: #50fa7b;
+    --cyan: #8be9fd;
+    --orange: #ffb86c;
+    --comment: #6272a4;
+}
+
+.return-str:after {
+    content: "() -> str:";
+    color: var(--foreground);
+}
+
+.return-list:after {
+    content: "() -> list:";
+    color: var(--foreground);
+}
+
+.return-none:after {
+    content: "() -> None:";
+    color: var(--foreground);
+}
+
+.func {
+    margin-left: 2em;
+    width: 80%;
+}
+
+.def {
+    font-weight: 500;
+    margin-bottom: .3em;
+    color: var(--green);
+}
+
+.def:before {
+    content: "def ";
+    font-weight: 400;
+    color: var(--purple);
+}
+
+.return {
+    display: flex;
+}
+
+.return:before {
+    content: "return";
+    color: var(--purple);
+}
+
+.docstring:before {
+    content: "\"\"\"";
+}
+
+.docstring:after {
+    content: "\"\"\"";
+}
+
+.docstring {
+    color: var(--comment);
+    margin-bottom: 1em;
+}
+
+.list {
+    margin-left: .5em;
+}
+
+.list:before {
+    content: "[";
+    color: var(--foreground);
+}
+
+.list:after {
+    content: "]";
+    color: var(--foreground);
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list li {
+    color: var(--orange);
+    margin-left: 1em;
+}
+
+.list li:before {
+    content: "\"";
+    color: var(--foreground);
+}
+
+.list li:not(:last-child):after {
+    content: "\",";
+    color: var(--foreground);
+}
+
+.list li:last-child:after {
+    content: "\"";
+    color: var(--foreground);
+}
+
+.conditional ul {
+    list-style: none;
+}
+
+.conditional li {
+    display: flex;
+}
+
+.conditional li:first-child:before {
+    content: "if";
+    margin-right: .5em;
+    color: var(--purple);
+}
+
+.conditional li:not(:first-child):nth-of-type(2n+1):before {
+    content: "elif";
+    margin-right: .5em;
+    color: var(--purple);
+}
+
+.conditional li:nth-of-type(2n+1) {
+    margin-top: 1em;
+}
+
+.conditional li:nth-of-type(2n+2) {
+    margin-left: 1.8em;
+}
+
+.conditional li:nth-of-type(2n+1):after {
+    content: ":";
+}
+
+.str:before {
+    color: var(--foreground);
+    content: "\"";
+}
+
+.str:after {
+    color: var(--foreground);
+    content: "\"";
+}
+
+.str {
+    color: var(--orange);
+    margin-left: .5em;
+}

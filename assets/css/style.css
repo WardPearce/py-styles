@@ -3,17 +3,6 @@
     padding: 0;
 }
 
-:root {
-    --background: #282a36;
-    --current-line: #44475a;
-    --foreground: #f8f8f2;
-    --purple: #bd93f9;
-    --green: #50fa7b;
-    --cyan: #8be9fd;
-    --orange: #ffb86c;
-    --comment: #6272a4;
-}
-
 @font-face {
     font-family: FiraCode;
     src: url('../fonts/FiraCode-VariableFont_wght.ttf');
@@ -78,108 +67,6 @@ main {
 
 section {
     margin-bottom: 2em;
-}
-
-.return-str:after {
-    content: "() -> str:";
-    color: var(--foreground);
-}
-
-.return-list:after {
-    content: "() -> list:";
-    color: var(--foreground);
-}
-
-.func {
-    margin-left: 2em;
-    width: 80%;
-}
-
-.def {
-    font-weight: 500;
-    margin-bottom: .3em;
-    color: var(--green);
-}
-
-.def:before {
-    content: "def ";
-    font-weight: 400;
-    color: var(--purple);
-}
-
-.return {
-    display: flex;
-}
-
-.return:before {
-    content: "return";
-    color: var(--purple);
-}
-
-.docstring:before {
-    content: "\"\"\"";
-}
-
-.docstring:after {
-    content: "\"\"\"";
-}
-
-.docstring {
-    color: var(--comment);
-    margin-bottom: 1em;
-}
-
-.list {
-    margin-left: .5em;
-}
-
-.list:before {
-    content: "[";
-    color: var(--foreground);
-}
-
-.list:after {
-    content: "]";
-    color: var(--foreground);
-}
-
-.list ul {
-    list-style: none;
-}
-
-.list li {
-    color: var(--orange);
-    margin-left: 1em;
-}
-
-.list li:before {
-    content: "\"";
-    color: var(--foreground);
-}
-
-.list li:not(:last-child):after {
-    content: "\",";
-    color: var(--foreground);
-}
-
-.list li:last-child:after {
-    content: "\"";
-    color: var(--foreground);
-}
-
-.str:before {
-    color: var(--foreground);
-    content: "\"";
-}
-
-.str:after {
-    color: var(--foreground);
-    content: "\"";
-}
-
-.str {
-    color: var(--orange);
-    margin-left: .5em;
 }
 
 a {
