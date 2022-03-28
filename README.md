@@ -2,7 +2,7 @@
 Raw CSS to make your site look like python code. Built mainly for my portfolio & will be missing functionality. Feel free to submit a PR or request functionality in a issue.
 
 ## Preview
-![preview of my portfolio](https://i.imgur.com/9chBLhu.png)
+![preview of my portfolio](https://i.imgur.com/COgvy2N.png)
 
 [Live preview](https://wardpearce.com)
 
