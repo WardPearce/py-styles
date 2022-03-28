@@ -189,3 +189,9 @@
 .comment a:hover {
     color: var(--comment);
 }
+
+@media screen and (max-width: 650px) {
+    .func {
+       width: 95%;
+    }
+}

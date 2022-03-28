@@ -96,9 +96,3 @@ a:hover {
        margin-top: .6em;
     }
 }
-
-@media screen and (max-width: 650px) {
-    .func {
-       width: 95%;
-    }
-}
