@@ -74,14 +74,22 @@ Will underline if link provided.
 ```
 ![List](https://i.imgur.com/TeN75TT.png)
 
-### String
+#### String
 ```html
 <p class="str">Modern typed requests for Python 3 built on-top of HTTPX.</p>
 ```
 ![string](https://i.imgur.com/ONL1Hss.png)
 
-### Integer
+#### Integer
 ```html
 <p class="int">0</p>
 ```
 ![int](https://i.imgur.com/o5G6jsA.png)
+
+### Return
+```html
+<div class="return">
+    <p class="str">Modern typed requests for Python 3 built on-top of HTTPX.</p>
+</div>
+```
+![Return](https://i.imgur.com/8uKdf6f.png)
