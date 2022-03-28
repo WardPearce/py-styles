@@ -93,3 +93,35 @@ Will underline if link provided.
 </div>
 ```
 ![Return](https://i.imgur.com/8uKdf6f.png)
+
+### Conditionals
+Conditionals is the most complex part of `py-styles`, basically every 2nd `li` is treated as the logic for the conditional defined in the `li` above it.
+
+Adding the `else` class to the `li` & leaving it blank is how you define a `else`, otherwise it will be a `elif`.
+
+```html
+<div class="conditional">
+    <ul>
+        <li>paaster</li>
+        <li>
+            <p class="comment">
+                <a href="https://github.com/WardPearce/paaster" target="_blank">https://github.com/WardPearce/paaster</a>
+            </p>
+            <div class="return">
+                <p class="str">Paaster is a secure by default end to end encrypted pastebin built with the objective of simplicity.</p>
+            </div>
+        </li>
+
+        <li>unofficial_dathost_interface</li>
+        <li>
+            <p class="comment">
+                <a href="https://github.com/UnofficialDathost/Interface" target="_blank">https://github.com/UnofficialDathost/Interface</a>
+            </p>
+            <div class="return">
+                <p class="str">Improved serverless interface for Dathost!</p>
+            </div>
+        </li>
+    </ul>
+</div>
+```
+![conditionals](https://i.imgur.com/WTwwydD.png)
