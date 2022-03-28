@@ -129,6 +129,44 @@ section {
     margin-bottom: 1em;
 }
 
+.list {
+    margin-left: .5em;
+}
+
+.list:before {
+    content: "[";
+    color: var(--foreground);
+}
+
+.list:after {
+    content: "]";
+    color: var(--foreground);
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list li {
+    color: var(--orange);
+    margin-left: 1em;
+}
+
+.list li:before {
+    content: "\"";
+    color: var(--foreground);
+}
+
+.list li:not(:last-child):after {
+    content: "\",";
+    color: var(--foreground);
+}
+
+.list li:last-child:after {
+    content: "\"";
+    color: var(--foreground);
+}
+
 .str:before {
     color: var(--foreground);
     content: "\"";
@@ -153,27 +191,27 @@ a:hover {
     color: #16d646;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     nav {
        display: block;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     nav ul {
        margin-left: 0;
        display: block;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     nav ul li {
        margin-top: .6em;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .func {
-       width: 90%;
+       width: 95%;
     }
 }
