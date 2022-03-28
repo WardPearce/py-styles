@@ -38,7 +38,7 @@
     display: flex;
 }
 
-.var p:after {
+.var .name:after {
     content: "=";
     margin-left: .5em;
 }

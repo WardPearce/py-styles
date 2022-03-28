@@ -43,8 +43,8 @@ Will underline if link provided.
 ### Variables
 #### Assigning
 ```html
-<div class="var"><p>paaster</p><div class="bool-true"></div></div>
-<div class="var"><p>unofficial_dathost_interface</p><div class="bool-false"></div></div>
+<div class="var"><p class="name">paaster</p><div class="bool-true"></div></div>
+<div class="var"><p class="name">unofficial_dathost_interface</p><div class="bool-false"></div></div>
 ```
 ![Bool](https://i.imgur.com/ke6809p.png)
 
@@ -55,15 +55,15 @@ Will underline if link provided.
 
 #### Bool
 ```html
-<div class="var"><p>paaster</p><div class="bool-true"></div></div>
-<div class="var"><p>unofficial_dathost_interface</p><div class="bool-false"></div></div>
+<div class="var"><p class="name">paaster</p><div class="bool-true"></div></div>
+<div class="var"><p class="name">unofficial_dathost_interface</p><div class="bool-false"></div></div>
 ```
 ![Bool](https://i.imgur.com/ke6809p.png)
 
 #### List
 ```html
 <div class="var">
-    <p>contacts</p>
+    <p class="name">contacts</p>
     <div class="list">
         <ul>
             <li>wardpearce@pm.me</li>
