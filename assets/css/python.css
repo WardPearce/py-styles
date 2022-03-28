@@ -176,3 +176,12 @@
 .comment {
     color: var(--comment);
 }
+
+.comment a {
+    color: var(--comment);
+    text-decoration: underline;
+}
+
+.comment a:hover {
+    color: var(--comment);
+}
