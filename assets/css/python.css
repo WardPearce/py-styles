@@ -157,6 +157,10 @@
     margin-left: .5em;
 }
 
+.int {
+    color: var(--purple);
+}
+
 .bool-true:before {
     content: "True";
     margin-left: .5em;
