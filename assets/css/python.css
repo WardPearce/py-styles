@@ -6,7 +6,9 @@
     --green: #50fa7b;
     --cyan: #8be9fd;
     --orange: #ffb86c;
+    --orange-hover: #fa9428;
     --comment: #6272a4;
+    --comment-hover: #3954a7;
 }
 
 .return-str:after {
@@ -117,23 +119,12 @@
     display: flex;
 }
 
-.dict .key:after {
-    content: "\": ";
-    color: var(--foreground);
+.dict li p:first-child:after {
+    content: ":";
 }
 
-.dict .key:before, .dict .value:before {
-    content: "\"";
-    color: var(--foreground);
-}
-
-.dict .value, .dict .key {
-    color: var(--orange);
-}
-
-.dict li:not(:last-child) .value:after {
-    content: "\",";
-    color: var(--foreground);
+.dict li:not(:last-child):after {
+    content: ",";
 }
 
 .list {
@@ -155,22 +146,11 @@
 }
 
 .list li {
-    color: var(--orange);
-    margin-left: 1em;
-}
-
-.list li:before {
-    content: "\"";
-    color: var(--foreground);
+    display: flex;
 }
 
 .list li:not(:last-child):after {
-    content: "\",";
-    color: var(--foreground);
-}
-
-.list li:last-child:after {
-    content: "\"";
+    content: ",";
     color: var(--foreground);
 }
 
@@ -247,13 +227,22 @@
     color: var(--comment);
 }
 
-.comment a {
+.comment a, .docstring a {
     color: var(--comment);
     text-decoration: underline;
 }
 
-.comment a:hover {
-    color: var(--comment);
+.comment a:hover, .docstring a:hover {
+    color: var(--comment-hover);
+}
+
+.str a {
+    color: var(--orange);
+    text-decoration: underline;
+}
+
+.str a:hover {
+    color: var(--orange-hover);
 }
 
 @media screen and (max-width: 650px) {

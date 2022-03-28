@@ -2,7 +2,7 @@
 Raw CSS to make your site look like python code. Built mainly for my portfolio & will be missing functionality. Feel free to submit a PR or request functionality in a issue.
 
 ## Preview
-![preview of my portfolio](https://i.imgur.com/A0pVv5x.png)
+![preview of my portfolio](https://i.imgur.com/75jrGKs.png)
 
 [Live preview](https://wardpearce.com)
 
@@ -63,17 +63,28 @@ Will underline if link provided.
 
 #### List
 ```html
-<div class="var">
-    <p class="name">contacts</p>
-    <div class="list">
-        <ul>
-            <li>wardpearce@pm.me</li>
-            <li>@wardp:matrix.org</li>
-        </ul>
-    </div>
+<div class="list">
+    <ul>
+        <li><p class="str">Python</p></li>
+        <li><p class="str">Typescript</p></li>
+        <li><p class="str">Svelte</p></li>
+        <li><p class="str">MySQL</p></li>
+        <li><p class="str">Asyncio</p></li>
+        <li><p class="str">Docker</p></li>
+        <li><p class="str">Django</p></li>
+        <li><p class="str">Vue</p></li>
+        <li><p class="str">MongoDB</p></li>
+        <li><p class="str">AWS</p></li>
+        <li><p class="str">Linux</p></li>
+        <li><p class="str">REST APIs</p></li>
+        <li><p class="str">Nginx / Apache</p></li>
+        <li><p class="str">S3</p></li>
+        <li><p class="str">Backblaze</p></li>
+        <li><p class="str">SqlAlchemy</p></li>
+    </ul>
 </div>
 ```
-![List](https://i.imgur.com/TeN75TT.png)
+![List](https://i.imgur.com/5KPaKjH.png)
 
 #### String
 ```html
@@ -100,16 +111,21 @@ Will underline if link provided.
 <div class="dict">
     <ul>
         <li>
-            <p class="key">email</p><p class="value">wardpearce@pm.me</p>
+            <p class="str">email</p>
+            <p class="str"><a href="mailto:wardpearce@pm.me">wardpearce@pm.me</a></p>
         </li>
-
         <li>
-            <p class="key">matrix</p><p class="value">@wardp:matrix.org</p>
+            <p class="str">matrix</p>
+            <p class="str"><a href="https://matrix.to/#/@wardp:matrix.org" target="_blank">@wardp:matrix.org</a></p>
+        </li>
+        <li>
+            <p class="str">github</p>
+            <p class="str"><a href="https://github.com/WardPearce/" target="_blank">github.com/WardPearce</a></p>
         </li>
     </ul>
 </div>
 ```
-![Dict](https://i.imgur.com/HgJhi5G.png)
+![Dict](https://i.imgur.com/yxBjW0Z.png)
 
 ### Call
 ```html
