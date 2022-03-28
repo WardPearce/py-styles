@@ -9,6 +9,9 @@
     --foreground: #f8f8f2;
     --purple: #bd93f9;
     --green: #50fa7b;
+    --cyan: #8be9fd;
+    --orange: #ffb86c;
+    --comment: #6272a4;
 }
 
 @font-face {
@@ -32,9 +35,17 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-nav span {
+nav h3:before {
+    content: "[";
+    color: var(--purple);
+    font-weight: 100;
+}
+
+nav h3:after {
+    content: "]";
     color: var(--purple);
     font-weight: 100;
 }
@@ -56,11 +67,6 @@ nav ul li {
     margin-right: 1em;
 }
 
-nav ul li a:before {
-    content: "def ";
-    color: var(--purple);
-}
-
 nav ul li a:after {
     content: "()";
     color: var(--foreground);
@@ -74,24 +80,68 @@ section {
     margin-bottom: 2em;
 }
 
-section h3:before {
-    content: "if";
-    font-weight: 400;
-    color: var(--purple);
-    margin-right: .5em;
+.return-str:after {
+    content: "() -> str:";
+    color: var(--foreground);
 }
 
-section h3:after {
-    content: ":";
+.return-list:after {
+    content: "() -> list:";
+    color: var(--foreground);
 }
 
-section h3 {
+.func {
+    margin-left: 2em;
+    width: 80%;
+}
+
+.def {
     font-weight: 500;
     margin-bottom: .3em;
+    color: var(--green);
 }
 
-section p {
-    margin-left: 2em;
+.def:before {
+    content: "def ";
+    font-weight: 400;
+    color: var(--purple);
+}
+
+.return {
+    display: flex;
+}
+
+.return:before {
+    content: "return";
+    color: var(--purple);
+}
+
+.docstring:before {
+    content: "\"\"\"";
+}
+
+.docstring:after {
+    content: "\"\"\"";
+}
+
+.docstring {
+    color: var(--comment);
+    margin-bottom: 1em;
+}
+
+.str:before {
+    color: var(--foreground);
+    content: "\"";
+}
+
+.str:after {
+    color: var(--foreground);
+    content: "\"";
+}
+
+.str {
+    color: var(--orange);
+    margin-left: .5em;
 }
 
 a {
@@ -100,27 +150,30 @@ a {
 }
 
 a:hover {
-    color: #b6f5c6;
+    color: #16d646;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     nav {
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
+       display: block;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     nav ul {
        margin-left: 0;
        display: block;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     nav ul li {
        margin-top: .6em;
-       margin-left: 3em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .func {
+       width: 90%;
     }
 }
