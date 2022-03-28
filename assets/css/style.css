@@ -20,6 +20,7 @@ body {
     background-color: var(--background);
     color: var(--foreground);
     font-family: FiraCode;
+    font-weight: 400;
     overflow-x: hidden;
 }
 
@@ -35,7 +36,7 @@ nav {
 
 nav span {
     color: var(--purple);
-    font-weight: 500;
+    font-weight: 100;
 }
 
 nav h3 {
@@ -65,6 +66,34 @@ nav ul li a:after {
     color: var(--foreground);
 }
 
+main {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h3:before {
+    content: "if";
+    font-weight: 400;
+    color: var(--purple);
+    margin-right: .5em;
+}
+
+section h3:after {
+    content: ":";
+}
+
+section h3 {
+    font-weight: 500;
+    margin-bottom: .3em;
+}
+
+section p {
+    margin-left: 2em;
+}
+
 a {
     color: var(--green);
     text-decoration: none;
@@ -85,14 +114,13 @@ a:hover {
 @media screen and (max-width: 700px) {
     nav ul {
        margin-left: 0;
-       margin-top: .5em;
        display: block;
     }
 }
 
 @media screen and (max-width: 700px) {
     nav ul li {
-       margin-top: .5em;
+       margin-top: .6em;
        margin-left: 3em;
     }
 }
