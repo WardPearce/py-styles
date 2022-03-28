@@ -29,6 +29,15 @@
     color: var(--foreground);
 }
 
+.call {
+    color: var(--green);
+}
+
+.call:after {
+    content: "()";
+    color: var(--foreground);
+}
+
 .func {
     margin-left: 2em;
     width: 80%;

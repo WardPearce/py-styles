@@ -14,6 +14,8 @@ body {
     font-family: FiraCode;
     font-weight: 400;
     overflow-x: hidden;
+    min-height: 100%;
+    margin-bottom: 60vh;
 }
 
 nav {
@@ -56,11 +58,6 @@ nav ul li {
     margin-right: 1em;
 }
 
-nav ul li a:after {
-    content: "()";
-    color: var(--foreground);
-}
-
 main {
     padding: 1em;
 }
@@ -70,7 +67,6 @@ section {
 }
 
 a {
-    color: var(--green);
     text-decoration: none;
 }
 

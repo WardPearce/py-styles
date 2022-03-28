@@ -94,6 +94,12 @@ Will underline if link provided.
 ```
 ![Return](https://i.imgur.com/8uKdf6f.png)
 
+## Call
+```html
+<p class="call">about</p>
+```
+![Call](https://i.imgur.com/IfmapAe.png)
+
 ### Conditionals
 Conditionals is the most complex part of `py-styles`, basically every 2nd `li` is treated as the logic for the conditional defined in the `li` above it.
 
