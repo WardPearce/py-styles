@@ -63,7 +63,7 @@ Will underline if link provided.
 #### List
 ```html
 <div class="var">
-    <p>contacts =</p>
+    <p>contacts</p>
     <div class="list">
         <ul>
             <li>wardpearce@pm.me</li>
