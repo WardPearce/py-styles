@@ -109,10 +109,6 @@
     list-style: none;
 }
 
-.conditional li {
-    display: flex;
-}
-
 .conditional li:first-child:before {
     content: "if";
     margin-right: .5em;
@@ -171,4 +167,12 @@
     content: "False";
     margin-left: .5em;
     color: var(--purple);
+}
+
+.comment:before {
+    content: "# ";
+}
+
+.comment {
+    color: var(--comment);
 }
