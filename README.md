@@ -49,11 +49,6 @@ Will underline if link provided.
 ```
 ![Bool](https://i.imgur.com/ke6809p.png)
 
-#### Variable types
-- `int`
-- `str`
-- `list`
-
 #### Bool
 ```html
 <div class="var"><p class="name">paaster</p><div class="bool-true"></div></div>
