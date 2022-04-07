@@ -117,6 +117,7 @@
 
 .dict li {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .dict li p:first-child:not(.str):after {
